@@ -118,12 +118,14 @@ body {
     align-items: center;
 }
 
+/* О нас */
+
 .about {
     height: 1130px;
     padding-top: 128px;
     padding-bottom: 271px;
-    background: url(../img/buildings-white.png) center bottom repeat-x,
-                url(../img/buildings-black.png) center bottom repeat-x,
+    background: url(../img/buildings-white.png) center 101% repeat-x,
+                url(../img/buildings-black.png) center 101% repeat-x,
                 #1d1d1d;
 }
 .about__inner {
@@ -138,8 +140,9 @@ body {
 .about__item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    place-content: center center;
     text-align: center;
     width: 417px;
     height: 276px;
@@ -164,5 +167,72 @@ body {
     color: #b7b7b7;
 }
 
+/* Команда */
+
+.team {
+    height: 745px;
+}
+.block__head {
+    text-align: center;
+}
+.block__title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #1d1e1f;
+    margin: 0;
+    padding-top: 138px;
+    margin-bottom: 13px;
+}
+
+.block__text {
+    font-family: "Merriweather-LightItalic", serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #898888;
+    margin: 0;
+}
+
+.team__inner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 127px;
+}
+.team__item {
+    text-align: center;
+}
+.team__item-img {
+    margin-bottom: 29px;
+}
+.team__item-title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #464646;
+    margin: 0;
+    margin-bottom: 7px;
+}
+.team__item-text {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #b3b3b3;
+    margin: 0;
+    margin-bottom: 21px;
+}
+.team__icon-box a {   
+    font-size: 20px;
+    color: #e4e4e4;
+    transition: 0.2s;
+}
+
+.team__icon-box a:hover {
+    color: rgb(188, 188, 109);
+}
 
 
