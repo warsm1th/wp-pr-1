@@ -296,18 +296,10 @@ body {
 
 /* Форма */
 
-.contact {
-
-}
-
 .contact .block__head .block__title {
     padding-top: 95px;
 }
 
-.block__text {
-}
-.contact__inner {
-}
 .contact__icon-box {
     display: flex;
     max-width: 570px;
@@ -315,6 +307,7 @@ body {
     padding-top: 64px;
     margin: 0 auto;
 }
+
 .contact__item {
     text-align: center;
     width: 130px;
@@ -325,38 +318,90 @@ body {
     font-size: 21px;
 }
 
-.icon-phone {
-}
 .contact__text {
+    margin-bottom: 12px;
+}
+
+.contact__text a {
     font-family: "HelveticaNeueLTProLt", sans-serif;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #898888;
+    transition: 0.3s;
 }
-.icon-location {
+
+.contact__text a:hover {
+    color: #323232;
+    text-decoration: underline;
+
 }
-.icon-mail-alt {
-}
+
 .contact__form {
+    padding-top: 153px;
     display: flex;
     flex-direction: column;
     max-width: 770px;
     margin: 0 auto;
 }
-.contact__name {
+
+.contact__form input {
+    padding: 20px;
+    height: 52px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #878888;
 }
-.contact__email {
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
-.contact__number {
+
+input[type="number"] {
+    -moz-appearance: textfield;
 }
+
 .contact__textarea {
+    padding: 22px;
+    margin-bottom: 21px;
+    height: 195px;
+    resize: none;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
 }
-.contact__button {
+
+.contact__form .contact__button {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #161616;
+    text-align: center;
+    font-family: "HelveticaNeueLTProMd", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
 }
 .footer {
+    padding-top: 154px;
+    margin-bottom: 29px;
 }
 .footer__text {
     text-align: center;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #3b3b3b;
 }
 
